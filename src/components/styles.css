@@ -1,0 +1,41 @@
+.addtask-container{
+    background-color: black;
+    color: white;
+    width: 75%;
+    margin: auto;
+    margin-top: 2em;
+    padding: 1em;
+}
+
+.task-container {
+    display: flex;
+    justify-content: space-between;
+    border-style: double;
+    margin: 0.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    border-radius: 0.3em;
+    padding-inline: 1.5em;
+    font-style: italic;
+}
+
+.task-container h5 {
+    width: 33%;
+}
+
+.task-complete{
+    border-color: rgb(26, 199, 10);
+}
+
+.task-not-complete {
+    border-color: rgb(251, 4, 4);
+}
+
+.task-done-label {
+    cursor: pointer;
+}
+
+.task-done-label :hover {
+    border-color: rgb(22, 159, 159);
+    border-radius: 0.2em;
+}
