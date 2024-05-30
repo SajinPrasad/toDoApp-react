@@ -51,15 +51,15 @@ const Addtask = () => {
     }
 
     const editTask = (index) => {
-        setTask(tasks[index])
+        
         if (!isEditing){
             setIsEditing(true)
+            setTask(tasks[index])
+            setUpdatedTaskIndex(index)
         }
         else {
             alert('already editing')
         }
-        
-        setUpdatedTaskIndex(index)
     }
 
     const taskDone = (index) => {
